@@ -13,6 +13,26 @@ body {
   letter-spacing: 0;
 }
 
+/* Header/Navigation RTL Adjustments */
+.header {
+  left: auto !important;
+  right: -100% !important; /* Start from outside the screen */
+  border-right: none !important;
+  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  transition: all ease-in-out 0.3s;
+}
+
+.header.header-show {
+  left: auto !important;
+  right: 0 !important; /* Show on screen when active */
+}
+
+/* Move toggle button to left side */
+.header .header-toggle {
+  right: auto !important;
+  left: 15px !important;
+}
+
 /* Adjust header icons */
 .header .navmenu ul li a .navicon {
   margin-right: 0;
@@ -156,5 +176,25 @@ ul {
 @media (max-width: 768px) {
   .row {
     flex-direction: column-reverse;
+  }
+}
+
+/* Main content margin adjustments for RTL */
+@media (min-width: 1200px) {
+  [dir="rtl"] .header~main {
+    margin-left: 0 !important;
+    margin-right: 0 !important; /* No margin since menu is hidden by default */
+  }
+
+  [dir="rtl"] .header~main .hero {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100vw;
+  }
+  
+  /* When header is shown, add margin */
+  [dir="rtl"] .header.header-show~main {
+    margin-right: 200px !important;
+    transition: all ease-in-out 0.3s;
   }
 }
