@@ -1,0 +1,160 @@
+/**
+ * RTL (Right-to-Left) specific styles for MyResume template
+ * These styles override and adjust the base styling for Arabic language and RTL direction
+ */
+
+/* Import Arabic fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* General RTL adjustments */
+body {
+  text-align: right;
+  font-family: 'Tajawal', 'Poppins', sans-serif;
+  letter-spacing: 0;
+}
+
+/* Adjust header icons */
+.header .navmenu ul li a .navicon {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+/* Hero section adjustments */
+.hero .social-links a {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* About section */
+.about .content ul i {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.about .content ul li {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+/* Skills progress bars */
+.skills .progress .skill i {
+  float: left;
+}
+
+/* Resume section */
+.resume .resume-item {
+  padding-right: 24px;
+  padding-left: 0;
+  border-right: 2px solid var(--color-primary);
+  border-left: none;
+}
+
+.resume .resume-item::before {
+  right: -9px;
+  left: auto;
+}
+
+/* Portfolio section */
+.portfolio-flters li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Services section */
+.service-item .icon {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Testimonials section */
+.testimonials .testimonial-item .quote-icon-left {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* Contact section */
+.contact .info-item i {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* Footer and social icons */
+footer .social-links a {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Fix icon directions for specific cases */
+.bi-chevron-right::before {
+  content: "\f284"; /* Bootstrap icon for chevron-left */
+}
+
+.bi-arrow-right::before {
+  content: "\f12f"; /* Bootstrap icon for arrow-left */
+}
+
+/* Fix swiper navigation */
+.swiper-button-next {
+  right: auto;
+  left: 10px;
+}
+
+.swiper-button-prev {
+  left: auto;
+  right: 10px;
+}
+
+/* Services hexagon shapes */
+.services .service-item .icon svg {
+  transform: scaleX(-1);
+}
+
+/* AOS animation direction adjustments */
+[data-aos="fade-right"] {
+  transform: translate3d(-100px, 0, 0);
+}
+
+[data-aos="fade-left"] {
+  transform: translate3d(100px, 0, 0);
+}
+
+/* Adjust list bullet points */
+ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+/* Adjust mobile menu toggle */
+@media (max-width: 1199px) {
+  .header-toggle {
+    right: auto;
+    left: 25px;
+  }
+}
+
+/* Adjust mobile navigation */
+@media (max-width: 1199px) {
+  .navmenu {
+    left: auto;
+    right: -260px;
+  }
+  
+  .navmenu.navmenu-active {
+    right: 0;
+  }
+}
+
+/* Adjust bootstrap columns for RTL when needed */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}

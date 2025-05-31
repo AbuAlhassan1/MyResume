@@ -1,0 +1,405 @@
+{
+    "site": {
+        "title": "السيرة الذاتية - موقع السيرة الذاتية الشخصية",
+        "description": "موقع سيرة ذاتية ومعرض أعمال احترافي",
+        "keywords": "سيرة ذاتية, معرض أعمال, موقع شخصي",
+        "favicon": "assets/img/favicon.png",
+        "appleTouchIcon": "assets/img/apple-touch-icon.png",
+        "direction": "rtl",
+        "language": "ar"
+    },
+    "personal": {
+        "name": "شغلتك",
+        "profession": {
+            "typedItems": [
+                "مصمم",
+                "مطور",
+                "مستقل",
+                "مصور"
+            ]
+        },
+        "heroBgImage": "assets/img/hero-bg.jpg",
+        "profileImage": "assets/img/profile-img.jpg",
+        "about": {
+            "title": "مصمم واجهات مستخدم ومطور ويب",
+            "subtitle": "خبرة أكثر من 5 سنوات في تصميم وتطوير مواقع الويب وتطبيقات الهاتف المحمول مع التركيز على تجربة المستخدم.",
+            "description": "أعمل على تقديم حلول مبتكرة وعالية الجودة لعملائي في مجال تصميم وتطوير الويب. أسعى دائماً لتطوير مهاراتي ومواكبة أحدث التقنيات في المجال. أؤمن بأن التصميم الجيد يجمع بين الجمال والوظائف العملية."
+        },
+        "details": [
+            {
+                "label": "تاريخ الميلاد",
+                "value": "1 مايو 1995"
+            },
+            {
+                "label": "الموقع الإلكتروني",
+                "value": "www.example.com"
+            },
+            {
+                "label": "الهاتف",
+                "value": "+966 55 555 5555"
+            },
+            {
+                "label": "المدينة",
+                "value": "الرياض، المملكة العربية السعودية"
+            },
+            {
+                "label": "العمر",
+                "value": "30"
+            },
+            {
+                "label": "الشهادة",
+                "value": "ماجستير"
+            },
+            {
+                "label": "البريد الإلكتروني",
+                "value": "email@example.com"
+            },
+            {
+                "label": "العمل الحر",
+                "value": "متاح"
+            }
+        ],
+        "contactInfo": {
+            "address": "شارع الملك فهد، الرياض، المملكة العربية السعودية",
+            "phone": "+966 55 555 5555",
+            "email": "info@example.com",
+            "receivingEmail": "contact@example.com"
+        }
+    },
+    "navigation": [
+        {
+            "name": "الرئيسية",
+            "link": "#hero",
+            "icon": "bi-house"
+        },
+        {
+            "name": "عني",
+            "link": "#about",
+            "icon": "bi-person"
+        },
+        {
+            "name": "السيرة الذاتية",
+            "link": "#resume",
+            "icon": "bi-file-earmark-text"
+        },
+        {
+            "name": "معرض الأعمال",
+            "link": "#portfolio",
+            "icon": "bi-images"
+        },
+        {
+            "name": "الخدمات",
+            "link": "#services",
+            "icon": "bi-hdd-stack"
+        },
+        {
+            "name": "اتصل بي",
+            "link": "#contact",
+            "icon": "bi-envelope"
+        }
+    ],
+    "social": {
+        "twitter": {
+            "link": "#",
+            "icon": "bi-twitter-x",
+            "enabled": true
+        },
+        "facebook": {
+            "link": "#",
+            "icon": "bi-facebook",
+            "enabled": true
+        },
+        "instagram": {
+            "link": "#",
+            "icon": "bi-instagram",
+            "enabled": true
+        },
+        "linkedin": {
+            "link": "#",
+            "icon": "bi-linkedin",
+            "enabled": true
+        },
+        "skype": {
+            "link": "#",
+            "icon": "bi-skype",
+            "enabled": true
+        }
+    },
+    "sections": {
+        "about": {
+            "title": "نبذة عني",
+            "description": "مطور ومصمم ويب ذو خبرة واسعة في إنشاء مواقع تفاعلية وتطبيقات ويب متميزة. أعمل على تقديم حلول تقنية مبتكرة تلبي احتياجات العملاء وتحقق أهدافهم التجارية.",
+            "enabled": true
+        },
+        "stats": {
+            "enabled": true,
+            "items": [
+                {
+                    "icon": "bi-emoji-smile",
+                    "count": 232,
+                    "label": "عميل سعيد"
+                },
+                {
+                    "icon": "bi-journal-richtext",
+                    "count": 521,
+                    "label": "مشروع"
+                },
+                {
+                    "icon": "bi-headset",
+                    "count": 1463,
+                    "label": "ساعة دعم"
+                },
+                {
+                    "icon": "bi-people",
+                    "count": 15,
+                    "label": "فريق العمل"
+                }
+            ]
+        },
+        "skills": {
+            "title": "المهارات",
+            "description": "مجموعة من المهارات التقنية والتصميمية التي اكتسبتها على مدار سنوات من الخبرة في مجال تطوير الويب",
+            "enabled": true,
+            "items": [
+                {
+                    "name": "HTML",
+                    "value": 100
+                },
+                {
+                    "name": "CSS",
+                    "value": 90
+                },
+                {
+                    "name": "JavaScript",
+                    "value": 75
+                },
+                {
+                    "name": "PHP",
+                    "value": 80
+                },
+                {
+                    "name": "WordPress/CMS",
+                    "value": 90
+                },
+                {
+                    "name": "Photoshop",
+                    "value": 55
+                }
+            ]
+        },
+        "resume": {
+            "title": "السيرة الذاتية",
+            "description": "خبرة عملية واسعة في مجال تطوير الويب وتصميم واجهات المستخدم. حاصل على شهادات متخصصة ومهارات متقدمة تساعد في تقديم حلول تقنية مبتكرة.",
+            "enabled": true,
+            "summary": "مصمم جرافيك مبتكر وملتزم بالمواعيد النهائية مع أكثر من 3 سنوات من الخبرة في تصميم وتطوير مواد تسويقية رقمية/مطبوعة تركز على المستخدم من المفهوم الأولي إلى المنتج النهائي المصقول.",
+            "education": [
+                {
+                    "degree": "ماجستير في الفنون الجميلة والتصميم الجرافيكي",
+                    "period": "2019 - 2021",
+                    "institution": "جامعة الملك سعود، الرياض",
+                    "description": "تخصص في مجال التصميم الجرافيكي مع التركيز على تصميم واجهات المستخدم وتجربة المستخدم. حصلت على تقدير امتياز مع مرتبة الشرف."
+                },
+                {
+                    "degree": "بكالوريوس في الفنون الجميلة والتصميم الجرافيكي",
+                    "period": "2015 - 2018",
+                    "institution": "جامعة الملك سعود، الرياض",
+                    "description": "درست أساسيات التصميم الجرافيكي والويب، والتحرير البصري، والتصوير الفوتوغرافي. عملت على مشاريع عملية متنوعة في مجال التصميم والتسويق الإلكتروني."
+                }
+            ],
+            "experience": [
+                {
+                    "position": "أخصائي تصميم جرافيك أول",
+                    "period": "2019 - الحالي",
+                    "company": "شركة تقنية المستقبل، الرياض",
+                    "description": "قيادة تصميم وتطوير وتنفيذ المواد الجرافيكية والتخطيطية ومواد الاتصالات الإنتاجية",
+                    "bullets": [
+                        "قيادة تصميم وتطوير وتنفيذ المواد الجرافيكية والتخطيطية ومواد الاتصالات الإنتاجية",
+                        "توزيع المهام على 7 أعضاء من فريق التصميم وتقديم المشورة في جميع جوانب المشروع",
+                        "الإشراف على تقييم جميع المواد الجرافيكية لضمان جودة ودقة التصميم",
+                        "الإشراف على الاستخدام الفعال لميزانيات مشاريع الإنتاج التي تتراوح ما بين 10,000 - 100,000 ريال"
+                    ]
+                },
+                {
+                    "position": "أخصائي تصميم جرافيك",
+                    "period": "2017 - 2018",
+                    "company": "وكالة إبداع للإعلان، الرياض",
+                    "description": "تطوير العديد من برامج التسويق (الشعارات، الكتيبات، الرسومات المعلوماتية، العروض التقديمية، والإعلانات).",
+                    "bullets": [
+                        "تطوير العديد من برامج التسويق (الشعارات، الكتيبات، الرسومات المعلوماتية، العروض التقديمية، والإعلانات)",
+                        "إدارة ما يصل إلى 5 مشاريع أو مهام في وقت واحد تحت الضغط",
+                        "تقديم التوصيات والاستشارات للعملاء حول التصميم الجرافيكي الأكثر ملاءمة",
+                        "إنشاء أكثر من 4 عروض ومقترحات تصميم شهرياً للعملاء ومديري الحسابات"
+                    ]
+                }
+            ]
+        },
+        "portfolio": {
+            "title": "معرض الأعمال",
+            "description": "مجموعة مختارة من أفضل المشاريع التي عملت عليها. تتضمن تطبيقات الويب، وتصميم المنتجات، والعلامات التجارية، والتصميم الجرافيكي.",
+            "enabled": true,
+            "filters": [
+                "الكل",
+                "تطبيقات",
+                "منتجات",
+                "هوية بصرية",
+                "كتب",
+                "تصميم"
+            ],
+            "items": [
+                {
+                    "title": "تطبيق الجوال",
+                    "category": "تطبيقات",
+                    "description": "تطبيق متجر إلكتروني",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-1.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "تصميم منتج",
+                    "category": "منتجات",
+                    "description": "تصميم عبوة منتج جديد",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "هوية بصرية",
+                    "category": "هوية بصرية",
+                    "description": "هوية بصرية لشركة ناشئة",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "Books 1",
+                    "category": "Books",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-4.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "App 2",
+                    "category": "App",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-5.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "Product 2",
+                    "category": "Product",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-6.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "App 3",
+                    "category": "App",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-7.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "Product 3",
+                    "category": "Product",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-8.jpg",
+                    "detailsLink": "portfolio-details.html"
+                },
+                {
+                    "title": "Branding 3",
+                    "category": "Branding",
+                    "description": "Lorem ipsum, dolor sit",
+                    "image": "assets/img/masonry-portfolio/masonry-portfolio-9.jpg",
+                    "detailsLink": "portfolio-details.html"
+                }
+            ]
+        },
+        "services": {
+            "title": "الخدمات",
+            "description": "أقدم مجموعة من الخدمات المتخصصة في مجال التصميم والتطوير لمساعدة الشركات على تحقيق أهدافها وتحسين وجودها الرقمي.",
+            "enabled": true,
+            "items": [
+                {
+                    "title": "تصميم الهوية البصرية",
+                    "description": "تصميم شعارات وهويات بصرية متكاملة للشركات والمؤسسات لتعزيز صورتها وتمييزها عن المنافسين.",
+                    "icon": "bi-activity",
+                    "color": "item-cyan"
+                },
+                {
+                    "title": "تطوير مواقع الويب",
+                    "description": "تصميم وتطوير مواقع ويب احترافية وسريعة الاستجابة باستخدام أحدث التقنيات والمعايير.",
+                    "icon": "bi-broadcast",
+                    "color": "item-orange"
+                },
+                {
+                    "title": "Ledo Markt",
+                    "description": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+                    "icon": "bi-easel",
+                    "color": "item-teal"
+                },
+                {
+                    "title": "Asperiores Commodi",
+                    "description": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+                    "icon": "bi-bounding-box-circles",
+                    "color": "item-indigo"
+                },
+                {
+                    "title": "Velit Doloremque",
+                    "description": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
+                    "icon": "bi-calendar4-week",
+                    "color": "item-purple"
+                },
+                {
+                    "title": "Dolori Architecto",
+                    "description": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
+                    "icon": "bi-chat-square-text",
+                    "color": "item-pink"
+                }
+            ]
+        },
+        "testimonials": {
+            "title": "Testimonials",
+            "description": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+            "enabled": true,
+            "items": [
+                {
+                    "name": "Saul Goodman",
+                    "position": "CEO & Founder",
+                    "testimonial": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+                    "image": "assets/img/testimonials/testimonials-1.jpg"
+                },
+                {
+                    "name": "Sara Wilsson",
+                    "position": "Designer",
+                    "testimonial": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+                    "image": "assets/img/testimonials/testimonials-2.jpg"
+                },
+                {
+                    "name": "Jena Karlis",
+                    "position": "Store Owner",
+                    "testimonial": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
+                    "image": "assets/img/testimonials/testimonials-3.jpg"
+                },
+                {
+                    "name": "Matt Brandon",
+                    "position": "Freelancer",
+                    "testimonial": "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
+                    "image": "assets/img/testimonials/testimonials-4.jpg"
+                },
+                {
+                    "name": "John Larson",
+                    "position": "Entrepreneur",
+                    "testimonial": "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.",
+                    "image": "assets/img/testimonials/testimonials-5.jpg"
+                }
+            ]
+        },
+        "contact": {
+            "title": "اتصل بي",
+            "description": "للاستفسارات والمشاريع، يمكنك التواصل معي من خلال الطرق المبينة أدناه أو باستخدام نموذج الاتصال. سأتواصل معك في أقرب وقت ممكن.",
+            "enabled": true,
+            "formSubmitPath": "forms/contact.php"
+        }
+    },
+    "footer": {
+        "copyright": "أحمد محمد",
+        "description": "مصمم ومطور ويب متخصص في تقديم حلول رقمية مبتكرة وعالية الجودة للشركات والأفراد."
+    }
+}
